@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalCharacterDetection", "UniversalCharacterDetection\UniversalCharacterDetection.csproj", "{EB97F8B6-09B1-455A-AFCA-A538F9B0E16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalCharacterDetection.Test", "UniversalCharacterDetection.Test\UniversalCharacterDetection.Test.csproj", "{32CD94C4-F0E4-48D1-B133-7BC88215459D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C0F238E9-302F-4D4C-9174-4D8C3EE8887B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB97F8B6-09B1-455A-AFCA-A538F9B0E16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB97F8B6-09B1-455A-AFCA-A538F9B0E16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB97F8B6-09B1-455A-AFCA-A538F9B0E16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB97F8B6-09B1-455A-AFCA-A538F9B0E16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CD94C4-F0E4-48D1-B133-7BC88215459D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CD94C4-F0E4-48D1-B133-7BC88215459D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CD94C4-F0E4-48D1-B133-7BC88215459D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CD94C4-F0E4-48D1-B133-7BC88215459D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
